@@ -1,5 +1,6 @@
 name: Fetch News Data  # 뉴스 데이터 수집
 
+
 on: 
   schedule: 
     - cron: "0 23 * * *"  # 매일 23:00 UTC (한국시간 08:00) 실행
